@@ -1,0 +1,11 @@
+.nav-link.active{
+    border-bottom: 1px solid black;
+}
+
+.nav-item{
+    padding: 0px 30px;
+}
+
+.container img{
+    height: 22px;
+}
