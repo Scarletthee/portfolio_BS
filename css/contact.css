@@ -1,0 +1,14 @@
+body{
+    background-image: url("../images/background/contact_bg.png");
+    height: 1024px;
+}
+
+.contact-left img{
+    width: 40px;
+    height: 40px;
+}
+
+.contact-left h5{
+    color: white;
+}
+

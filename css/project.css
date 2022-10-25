@@ -1,7 +1,6 @@
 body{
     background-image: url("../images/background/project_bg.png");
     height: 3072px;
-    background-repeat: no-repeat;
 }
 
 .project-nav.active{
