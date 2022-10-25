@@ -1,24 +1,39 @@
 /* font */
 h1{
     font-size: 96px;
-    font-weight: 400;
+    font-weight: 200;
 }
 h2{
     font-size: 64px;
-    font-weight: 400;
+    font-weight: 200;
 }
 h3{
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 200;
 }
 h4{
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 200;
 }
 h5{
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 200;
 }
 .font-PD{
     font-family: 'Playfair Display';
+}
+
+
+button{
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #FFFFFF;
+    color: white;
+    padding: 13px 54px 10px;
+    font-size: 16px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgba(0, 0, 0, 0.7);
 }
