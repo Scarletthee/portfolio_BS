@@ -1,23 +1,23 @@
 /* font */
 h1{
     font-size: 96px;
-    font-weight: 200;
+    font-weight: 300;
 }
 h2{
     font-size: 64px;
-    font-weight: 200;
+    font-weight: 300;
 }
 h3{
     font-size: 32px;
-    font-weight: 200;
+    font-weight: 300;
 }
 h4{
     font-size: 22px;
-    font-weight: 200;
+    font-weight: 300;
 }
 h5{
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 300;
 }
 .font-PD{
     font-family: 'Playfair Display';
@@ -37,10 +37,25 @@ button{
     color: white;
     padding: 13px 50px 10px;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 300;
     cursor: pointer;
 }
 
 button:hover{
     background: rgba(0, 0, 0, 0.7);
+}
+
+
+ul{
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    padding: 20px 0px;
+}
+
+li{
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    list-style: none;
 }

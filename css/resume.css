@@ -1,0 +1,25 @@
+body{
+    background-image: url("../images/background/resume_bg.png");
+    height: 1024px;
+}
+
+.content-1 li{
+    list-style: square;
+}
+
+.line-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-upper{
+    padding-left: 365px;
+    padding-right: 40px;
+    margin: 70px 0px;
+}
+
+.row{
+    padding-left: 300px;
+}
+
