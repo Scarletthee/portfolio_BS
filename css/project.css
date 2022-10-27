@@ -1,6 +1,11 @@
 body{
     background-image: url("../images/background/project_bg.png");
-
+}
+@media only screen and (max-width: 768px){
+    body{
+        background-image: url("../images/sm/background/project_bg_sm.png");
+    
+    }
 }
 
 .project-nav.active{
