@@ -1,6 +1,17 @@
 body{
     background-image: url("../images/background/resume_bg.png");
-
+}
+@media only screen and (max-width: 1134px){
+    body{
+        background-image: url("../images/md/background/resume_bg_md.png");
+    
+    }
+}
+@media only screen and (max-width: 768px){
+    body{
+        background-image: url("../images/sm/background/resume_bg_sm.png");
+    
+    }
 }
 
 .content-1 li{
@@ -10,15 +21,29 @@ body{
 .line-2{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+}
+@media only screen and (max-width: 768px){
+    .line-2{
+        display: block;
+    }
 }
 
 .content-upper{
     padding-left: 40%;
     margin: 8% 0%;
 }
+@media only screen and (max-width: 768px){
+    .content-upper{
+        padding:10% 0% 10% 20%; 
+        margin: auto;
+    }
+}
 
 .row{
     padding-left: 20%;
 }
 
+.resume-img{
+    margin: auto;
+}
