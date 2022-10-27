@@ -1,6 +1,6 @@
 body{
     background-image: url("../images/background/project_bg.png");
-    height: 3072px;
+
 }
 
 .project-nav.active{
@@ -16,8 +16,8 @@ body{
     justify-content: center top;
     flex-direction: column;
     align-items: center;
-    height: 1000px;
-    padding-top: 150px;
+    height: 100vh;
+    padding-top: 10vh;
 }
 
 .project-content h2{
@@ -25,6 +25,7 @@ body{
     letter-spacing: 0.18em;
     text-align: center;
 }
+
 
 .project-content h5{
     color: white;

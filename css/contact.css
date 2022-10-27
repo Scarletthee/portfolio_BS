@@ -1,6 +1,6 @@
 body{
     background-image: url("../images/background/contact_bg.png");
-    height: 1024px;
+    min-height: 100vh;
 }
 
 .contact-left img{

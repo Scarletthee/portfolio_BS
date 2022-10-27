@@ -1,6 +1,6 @@
 body{
     background-image: url("../images/background/resume_bg.png");
-    height: 1024px;
+
 }
 
 .content-1 li{
@@ -14,12 +14,11 @@ body{
 }
 
 .content-upper{
-    padding-left: 365px;
-    padding-right: 40px;
-    margin: 70px 0px;
+    padding-left: 40%;
+    margin: 8% 0%;
 }
 
 .row{
-    padding-left: 300px;
+    padding-left: 20%;
 }
 

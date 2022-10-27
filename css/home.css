@@ -1,12 +1,23 @@
 body{
     background-image: url("../images/background/home_bg.png");
-    height: 1024px;
+}
+@media only screen and (max-width: 576px){
+    body{
+        background-size: 100%;
+        background-position: center;
+    }
 }
 
 .chinese{
     font-size: 96px;
     font-weight: lighter;
 }
+@media only screen and (max-width: 992px) and (min-width:576px){
+    .chinese{
+        color: white;
+    }
+}
+
 
 .quote{
     padding-top: 150px;
@@ -14,6 +25,15 @@ body{
     line-height: 50px;
     letter-spacing: 0.18em;
 }
+@media only screen and (max-width: 576px){
+    .quote{
+        color: black;
+        letter-spacing: 0.15em;
+        position: absolute;
+        top: -40px;
+    }
+}
+
 
 .home-text{
     display: flex;

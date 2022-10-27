@@ -23,6 +23,12 @@ body{
     padding-left: 630px;
     padding-top: 80px;
 }
+@media only screen and (max-width: 800px){
+    .about-content{
+        padding-left: 0px;
+    
+    }
+}
 
 .page-title{
     margin: 0;

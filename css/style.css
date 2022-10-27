@@ -27,11 +27,12 @@ h5{
 body{
     background-repeat: no-repeat;
     background-position: center top;
+    background-size: cover;
     background-color: #F0F0F0;
 }
 
 /* buttons */
-button{
+.btn {
     background: rgba(0, 0, 0, 0.3);
     border: 1px solid #FFFFFF;
     color: white;
@@ -41,8 +42,10 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+
+.btn:hover {
     background: rgba(0, 0, 0, 0.7);
+    border: 1px solid #FFFFFF;
 }
 
 
