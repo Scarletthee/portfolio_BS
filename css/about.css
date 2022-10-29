@@ -1,4 +1,6 @@
-
+.page-title{
+    margin: auto;
+}
 
 .about-img{
     width: 50%;
@@ -32,9 +34,6 @@
     padding-top: 80px;
 }
 
-.page-title{
-    margin: 0;
-}
 
 @media only screen and (max-width: 1200px){
     .about-content{
@@ -53,6 +52,7 @@
         padding-top: 15%;
         width: 80%;
         padding-right: 0;
+        margin: auto;
     }
     .about-content h1{
         font-size: 64px;
@@ -67,4 +67,33 @@
     }
 }
 
+@media only screen and (max-width: 768px){
+    body{
+        background-image: url("../images/sm/background/about_bg_sm.png");
+    }
+    .about-img{
+        display: none;
+    }
+    .about-text{
+        background: rgba(0, 0, 0, 0.5);
+        margin-top: 500px;
+        padding: 50px;
+    }
+    .about-content{
+        position: relative;
+    }
+    .page-title{
+        position: absolute;
+        background: rgba(52, 52, 52, 0.55);
+        right: -100px;
+        top: 50px;
+        padding: 2%;
+    }
+}
 
+
+@media only screen and (max-width: 576px){
+    .about-text{
+        padding: 50px 0px;
+    }
+}
