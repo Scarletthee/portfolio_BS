@@ -1,14 +1,51 @@
 body{
     background-image: url("../images/background/contact_bg.png");
-    min-height: 100vh;
 }
 
-.contact-left img{
+@media (max-width: 768px) { 
+    body{
+        background-image: url("../images/sm/background/contact_bg_sm.png");
+    }
+    .contact-content{
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+        margin-left: 0 !important;
+    }
+    .contact-icon{
+        display: none;
+    }
+    .contact-icon-light{
+        width: 40px;
+        height: 35px !important;
+    }
+
+ }
+
+h5{
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5%;
+    padding-top: 1%;
+}
+
+.contact-icon{
     width: 40px;
-    height: 40px;
+    height: 35px !important;
+
 }
 
-.contact-left h5{
-    color: white;
+.contact-content{
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 50%;
 }
 
+@media (max-width: 993px) { 
+    h5{
+        width: 90%;
+    }
+    h1{
+        font-size: 62px;
+
+    }
+ }

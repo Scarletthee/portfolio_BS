@@ -14,3 +14,19 @@
     height: 22px;
 }
 
+footer{
+    margin-top: 100px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+
+.footer-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item li{
+    font-size: 12px;
+}
+

@@ -28,7 +28,7 @@ body{
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
-    background-color: #F0F0F0;
+    background-color: #000000;
 }
 
 /* buttons */
@@ -63,9 +63,4 @@ li{
     list-style: none;
 }
 
-.resume-pdf {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+

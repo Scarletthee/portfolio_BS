@@ -7,10 +7,16 @@ body{
     
     }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
     body{
         background-image: url("../images/sm/background/resume_bg_sm.png");
     
+    }
+}
+@media only screen and (max-width: 576px){
+    body{
+        background-image: none;
+        background-color: #F0F0F0;
     }
 }
 
@@ -23,7 +29,7 @@ body{
     justify-content: space-between;
     align-items: flex-end;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
     .line-2{
         display: block;
     }
@@ -33,7 +39,7 @@ body{
     padding-left: 40%;
     margin: 8% 0%;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
     .content-upper{
         padding:10% 0% 10% 20%; 
         margin: auto;

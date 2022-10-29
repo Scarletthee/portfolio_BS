@@ -1,5 +1,6 @@
 body{
     background-image: url("../images/background/project_bg.png");
+    height: 100vh;
 }
 @media only screen and (max-width: 1098px){
     body{
@@ -21,7 +22,7 @@ body{
     justify-content: center top;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     padding-top: 10vh;
 }
 
