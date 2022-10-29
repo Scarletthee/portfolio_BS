@@ -1,0 +1,113 @@
+section{
+    max-width: 1440px;
+    margin: auto;
+}
+.mainContent{
+    background-image: url("../images/background/me_home.png");
+    background-size: 900px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+}
+@media (max-width: 1399.98px) { 
+    .mainContent{
+        background-size: 800px;
+        padding-top: 0px;
+    }
+ }
+ @media (max-width: 1199.98px) { 
+    .mainContent{
+        background-size: 700px;
+        padding-top: 0px;
+    }
+}
+@media (max-width: 991.98px) { 
+    .mainContent{
+        background-size: 550px;
+        padding-top: 0px;
+    }
+}
+
+
+.chinese{
+    font-size: 96px;
+    font-weight: lighter;
+}
+
+
+
+.quote{
+    padding: 60px;
+    color: white;
+    /* line-height: 50px; */
+    letter-spacing: 0.18em;
+    background: rgba(0, 0, 0, 0.6);
+    margin-top: 140px;
+    margin-bottom: 0;
+}
+
+
+.home-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(../images/background/rectangle_home.png);
+    background-size: 250px 570px;
+    background-position: 300px 0px;
+    background-repeat: no-repeat;
+    align-content: center;
+}
+
+.chinese{
+    margin-left: 100px;
+    margin-top: 130px;
+}
+
+@media (max-width: 1399.98px) { 
+    .home-text{
+        background-size: 330px;
+        background-position: 250px 0px;
+    }
+    .chinese{
+        margin-top: 100px;
+        margin-left: 80px;
+     }
+}
+@media (max-width: 1199.98px) { 
+    .home-text{
+        background-size: 200px 400px;
+        background-position: 200px 30px;
+    }
+    .chinese{
+        margin-top: 40px;
+        margin-left: 60px;
+     }
+}
+@media (max-width: 991.98px) { 
+    .chinese{
+        font-size: 56px;
+        margin-top: 90px;
+        margin-left: 50px;
+     }
+     .quote{
+        margin-top: 50px;
+    }
+    .home-text{
+        background-size: 110px 270px;
+        background-position: 130px 50px;
+    }
+    .home-text h4{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+footer{
+    margin-top: 100px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 60px;
+    color: white;
+}
