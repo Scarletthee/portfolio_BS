@@ -9,32 +9,6 @@ section{
     background-repeat: no-repeat;
 
 }
-@media (max-width: 1399.98px) { 
-    .mainContent{
-        background-size: 800px;
-        padding-top: 0px;
-    }
- }
- @media (max-width: 1199.98px) { 
-    .mainContent{
-        background-size: 700px;
-        padding-top: 0px;
-    }
-}
-@media (max-width: 991.98px) { 
-    .mainContent{
-        background-size: 550px;
-        padding-top: 0px;
-    }
-}
-@media (max-width: 768px) { 
-    body{
-        background-image: url("../images/sm/background/home_bg_sm.png");
-    }
-    .mainContent{
-        background-image: none;
-    }
-}
 
 
 
@@ -47,12 +21,7 @@ section{
     margin-top: 140px;
     margin-bottom: 0;
 }
-@media (max-width: 768px) { 
-    .quote{
-        letter-spacing: 0.05em;
-        margin: auto;
-    }
-}
+
 
 
 .home-text{
@@ -65,11 +34,7 @@ section{
     background-repeat: no-repeat;
     align-content: center;
 }
-@media (max-width: 768px) { 
-    .home-text{
-        background-image: none;
-    }
-}
+
 
 
 .chinese{
@@ -89,6 +54,10 @@ section{
         margin-top: 100px;
         margin-left: 80px;
      }
+     .mainContent{
+        background-size: 800px;
+        padding-top: 0px;
+    }
 }
 @media (max-width: 1199.98px) { 
     .home-text{
@@ -99,6 +68,10 @@ section{
         margin-top: 40px;
         margin-left: 40px;
      }
+     .mainContent{
+        background-size: 700px;
+        padding-top: 0px;
+    }
 }
 
 @media (max-width: 991.98px) { 
@@ -117,13 +90,33 @@ section{
     .home-text h4{
         font-size: 20px;
     }
+    .mainContent{
+        background-size: 550px;
+        padding-top: 0px;
+    }
 }
 
 @media (max-width: 768px) { 
     .chinese{
         color: white;
-        padding-left: 13%;
-        margin-top: 14%;
+        margin-top: 250px;
+        margin-left: 0;
+    }
+    .home-text{
+        background-image: none;
+        background-size: 0px 0px !important;
+    }
+    body{
+        background-image: url("../images/sm/background/home_bg_sm.png");
+    }
+    .mainContent{
+        background-image: none;
+    }
+    .quote{
+        background: none;
+        margin-top: 300px;
+        line-height: 50px;
+        padding: 0;
     }
 }
 
