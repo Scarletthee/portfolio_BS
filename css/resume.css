@@ -1,23 +1,10 @@
 body{
-    background-image: url("../images/background/resume_bg.png");
+    background-color: black;
 }
-@media only screen and (max-width: 1134px){
-    body{
-        background-image: url("../images/md/background/resume_bg_md.png");
-    
-    }
-}
-@media only screen and (max-width: 767px){
-    body{
-        background-image: url("../images/sm/background/resume_bg_sm.png");
-    
-    }
-}
-@media only screen and (max-width: 576px){
-    body{
-        background-image: none;
-        background-color: #F0F0F0;
-    }
+
+.resume-item{
+    color: white;
+    margin-left: 200px;
 }
 
 .content-1 li{
@@ -29,27 +16,70 @@ body{
     justify-content: space-between;
     align-items: flex-end;
 }
-@media only screen and (max-width: 767px){
+
+.content-upper{
+    width: 620px;
+    margin: 8% 0%;
+}
+
+
+
+.resume-content{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.resume-title{
+    color: white;
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+    .resume-item{
+        margin:auto
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .resume-content{
+        margin:auto
+    }
+}
+
+@media only screen and (max-width: 768px){
     .line-2{
         display: block;
     }
-}
-
-.content-upper{
-    padding-left: 40%;
-    margin: 8% 0%;
-}
-@media only screen and (max-width: 767px){
     .content-upper{
-        padding:10% 0% 10% 20%; 
-        margin: auto;
+        margin-top: 80px;
+        margin-bottom: 200px;
+    }
+    .line-2 h4{
+        padding: 15px 0px;
+    }
+    .resume-img{
+        display: none;
+    }
+    body{
+        background-image: url("../images/sm/background/resume_bg_sm.png");
+        background-position: top center;
+    }
+    .resume-title{
+        margin-bottom: 150px;
+    }
+    .content-1{
+        margin: 60px 0px;
+    }
+    .content-2{
+        margin-left: 300px;
+    }
+    .content-3{
+
     }
 }
 
-.row{
-    padding-left: 20%;
-}
 
-.resume-img{
-    margin: auto;
-}
