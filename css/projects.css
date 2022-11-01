@@ -1,0 +1,32 @@
+/* font */
+h1{
+    font-size: 96px;
+    font-weight: 300;
+}
+h2{
+    font-size: 64px;
+    font-weight: 300;
+}
+h3{
+    font-size: 32px;
+    font-weight: 300;
+}
+h4{
+    font-size: 22px;
+    font-weight: 300;
+}
+h5{
+    font-size: 16px;
+    font-weight: 300;
+}
+.font-PD{
+    font-family: 'Playfair Display';
+}
+
+/* background */
+body{
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-color: #EAEAEA;
+}
