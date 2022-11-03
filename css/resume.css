@@ -1,10 +1,15 @@
 body{
     background-color: black;
+    background-image: url("../images/img/resume_img.png");
+    background-position: 100px 100px;
+    background-repeat: no-repeat;
+    background-size: 390px 763px;
+    min-height: 90vh;
 }
 
 .resume-item{
     color: white;
-    margin-left: 200px;
+    padding-left: 430px;
 }
 
 .content-1 li{
@@ -18,10 +23,8 @@ body{
 }
 
 .content-upper{
-    width: 620px;
     margin: 8% 0%;
 }
-
 
 
 .resume-content{
@@ -42,11 +45,54 @@ body{
     .resume-item{
         margin:auto
     }
+    .line-2{
+        display: block;
+    }
+    body{
+        background-position: 80px 200px;
+        background-size: 297px 571px;
+    }
+    .resume-item{
+        padding-left: 330px;
+    }
+
 }
 
 @media only screen and (max-width: 992px){
     .resume-content{
         margin:auto
+    }
+    .line-2{
+        display: block;
+    }
+    body{
+        background-image: url("../images/sm/background/resume_bg_sm.png");
+        background-position: top center;
+        background-size: 992px;
+    }
+    .resume-item{
+        padding: 0;
+    }
+    .line-2 h4{
+        padding-bottom: 50px;
+    }
+    .content-upper h2{
+        margin-top: 100px;
+    }
+    .resume-title{
+        margin-top: 200px !important;
+    }
+    .content-upper{
+        margin-bottom: 300px;
+    }
+    .content-1{
+        margin-top: 150px;
+    }
+    .content-2{
+        margin-top: 200px;
+    }
+    .content-3{
+        margin-top: 150px;
     }
 }
 
@@ -56,7 +102,7 @@ body{
     }
     .content-upper{
         margin-top: 80px;
-        margin-bottom: 200px;
+        margin-bottom: 300px;
     }
     .line-2 h4{
         padding: 15px 0px;
@@ -67,6 +113,7 @@ body{
     body{
         background-image: url("../images/sm/background/resume_bg_sm.png");
         background-position: top center;
+
     }
     .resume-title{
         margin-bottom: 150px;
@@ -75,7 +122,7 @@ body{
         margin: 60px 0px;
     }
     .content-2{
-        margin-left: 300px;
+
     }
     .content-3{
 

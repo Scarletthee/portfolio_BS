@@ -16,7 +16,7 @@
 
 footer{
     margin-top: 100px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.3);
     color: white;
 }
 
@@ -24,9 +24,11 @@ footer{
 .footer-item{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0;
 }
 
 .footer-item li{
     font-size: 12px;
 }
+
 

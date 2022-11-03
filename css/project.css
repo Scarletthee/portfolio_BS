@@ -1,13 +1,7 @@
 body{
-    background-image: url("../images/background/project_bg.png");
-    height: 100vh;
+    min-height: 100vh;
 }
-@media only screen and (max-width: 1098px){
-    body{
-        background-image: url("../images/sm/background/project_bg.png");
-    
-    }
-}
+
 
 .project-nav.active{
     border-bottom: 1px solid white;
@@ -36,4 +30,44 @@ body{
 .project-content h5{
     color: white;
     padding: 10px;
+}
+
+.pr1{
+    background-image: url("../images/background/pr1_bg.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pr2{
+    background-image: url("../images/background/pr2_bg.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pr3{
+    background-image: url("../images/background/pr3_bg.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width: 992px){
+    .pr1{
+        background-image: url("../images/sm/background/pr1_bg_sm.png");
+    }
+    .pr2{
+        background-image: url("../images/sm/background/pr2_bg_sm.png");
+    }
+    .pr3{
+        background-image: url("../images/sm/background/pr3_bg_sm.png");
+    }
+}
+
+footer{
+    margin-top: 0;
 }
