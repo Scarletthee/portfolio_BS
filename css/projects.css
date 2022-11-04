@@ -69,3 +69,12 @@ body{
     height: auto !important;
     margin-top: 50px;
 }
+
+@media only screen and (max-width: 768px){
+    .abstract{
+        display: none;
+    }
+    .part-2 ul{
+        margin-top: 50px;
+    }
+}
