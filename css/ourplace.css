@@ -3,27 +3,132 @@
     height: 900px;
 }
 .hero img{
-    width: 960px;
-    height: 613.74px;
+    width: 100%;
+    height: auto;
 }
 
 .PS h5{
     margin-bottom: 100px;
 }
 
+.PS{
+    margin: auto;
+}
+
+.part-1{
+    margin-top: 200px;
+}
+
 .abstract-1{
-    width: 485px;
-    height: 485px !important;
+    width: 80%;
+    height: auto !important;
+    margin-left: 100px;
+    margin-bottom: 100px;
 }
 
 .list-style li{
     list-style: none;
 }
 
-.empathize{
-    width: 315px;
-height: 542px;
+.break{
+    width: auto;
+    height: auto !important;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.abstract-2{
+    width: 80%;
+    height: auto !important;
+    margin-left: 100px;
+}
+
+.HI{
+    margin-top: auto;
+}
+
+.HI h5{
+    margin-bottom: 100px;
+}
+
+.part-4{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.part-5{
+    text-align: center;
 }
 
 
+.part-6{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.part-7{
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+.part-8{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.table{
+    width: 100%;
+    height: auto !important;
+    margin-top: 50px;
+}
+
+.abstract-3{
+    width: 40%;
+    height: auto !important;
+}
+
+.text{
+    margin: auto;
+    text-align: center;
+}
+
+.abstract-4{
+    width: 30%;
+    height: auto !important;
+}
+
+.part-11{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.part-12{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.part-11 img{
+    width: 80%;
+}
+
+.part-12 table{
+    width: 80%;
+}
+
+.part-13{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.part-14{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.part-15{
+    text-align: center;
+    margin-top: 200px;
+}
 
