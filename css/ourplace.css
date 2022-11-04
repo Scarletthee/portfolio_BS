@@ -1,6 +1,5 @@
 .hero{
     text-align: center;
-    height: 900px;
 }
 
 
@@ -31,6 +30,10 @@
 .text{
     margin: auto;
     text-align: center;
+}
+
+.text h3{
+    margin-top: 50px;
 }
 
 .abstract-4{
@@ -99,6 +102,7 @@
 
 .part-15{
     text-align: center;
-    margin-top: 200px;
 }
+
+
 
