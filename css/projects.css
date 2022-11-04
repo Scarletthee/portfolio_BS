@@ -34,3 +34,38 @@ body{
 .title{
     margin: 70px;
 }
+
+/* content */
+.hero img{
+    width: 100%;
+    height: auto;
+}
+
+.PS{
+    margin: auto;
+}
+    
+.PS h5{
+    margin-bottom: 100px;
+}
+
+.abstract-1{
+    width: 80%;
+    height: auto !important;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.break{
+    width: auto;
+    height: auto !important;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.table{
+    width: 100%;
+    height: auto !important;
+    margin-top: 50px;
+}

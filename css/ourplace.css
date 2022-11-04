@@ -2,41 +2,12 @@
     text-align: center;
     height: 900px;
 }
-.hero img{
-    width: 100%;
-    height: auto;
-}
 
-.PS h5{
-    margin-bottom: 100px;
-}
-
-.PS{
-    margin: auto;
-}
-
-.part-1{
-    margin-top: 200px;
-}
-
-.abstract-1{
-    width: 80%;
-    height: auto !important;
-    margin-left: 100px;
-    margin-bottom: 100px;
-}
 
 .list-style li{
     list-style: none;
 }
 
-.break{
-    width: auto;
-    height: auto !important;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
 
 .abstract-2{
     width: 80%;
@@ -50,6 +21,26 @@
 
 .HI h5{
     margin-bottom: 100px;
+}
+
+.abstract-3{
+    width: 40%;
+    height: auto !important;
+}
+
+.text{
+    margin: auto;
+    text-align: center;
+}
+
+.abstract-4{
+    width: 30%;
+    height: auto !important;
+}
+
+/* part */
+.part-1{
+    margin-top: 200px;
 }
 
 .part-4{
@@ -76,27 +67,6 @@
 .part-8{
     text-align: center;
     margin-top: 200px;
-}
-
-.table{
-    width: 100%;
-    height: auto !important;
-    margin-top: 50px;
-}
-
-.abstract-3{
-    width: 40%;
-    height: auto !important;
-}
-
-.text{
-    margin: auto;
-    text-align: center;
-}
-
-.abstract-4{
-    width: 30%;
-    height: auto !important;
 }
 
 .part-11{
