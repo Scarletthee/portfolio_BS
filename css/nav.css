@@ -1,9 +1,9 @@
 .nav-link.active{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 .nav-link:hover{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 .nav-item{
@@ -19,7 +19,6 @@ footer{
     background: rgba(0, 0, 0, 0.3);
     color: white;
 }
-
 
 .footer-item{
     display: flex;
