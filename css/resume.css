@@ -4,7 +4,6 @@ body{
     background-position: 100px 100px;
     background-repeat: no-repeat;
     background-size: 390px 763px;
-    min-height: 90vh;
 }
 
 .resume-item{
@@ -37,7 +36,9 @@ body{
     color: white;
 }
 
-
+.content-1 li{
+    list-style-type: none; 
+}
 
 
 
@@ -120,12 +121,6 @@ body{
     }
     .content-1{
         margin: 60px 0px;
-    }
-    .content-2{
-
-    }
-    .content-3{
-
     }
 }
 
