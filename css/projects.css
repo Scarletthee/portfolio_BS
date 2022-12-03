@@ -78,7 +78,8 @@ footer{
 }
 
 footer li{
-    list-style-type: none;  
+    list-style-type: none; 
+    background-color: black; 
 }
 
 @media only screen and (max-width: 768px){
