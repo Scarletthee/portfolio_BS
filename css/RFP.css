@@ -1,0 +1,119 @@
+.hero{
+    text-align: center;
+}
+
+.hero img{
+    width: 70%;
+}
+
+.hero h4{
+    margin-bottom: 80px;
+}
+
+.list-style li{
+    list-style: none;
+}
+
+.PP{
+    width: 50%;
+}
+
+.abstract-3{
+    width: 40%;
+    height: auto !important;
+}
+
+.text{
+    margin: auto;
+    text-align: center;
+}
+
+.text h3{
+    margin-top: 50px;
+}
+
+.abstract-4{
+    width: 30%;
+    height: auto !important;
+}
+
+.HTML{
+    width: 50%;
+}
+/* part */
+.part-1{
+    margin-top: 200px;
+}
+
+.part-3{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.part-4{
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+.part-5{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.part-6{
+    text-align: center;
+}
+
+
+.part-7{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.part-7 img{
+    width: 50%;
+}
+
+.part-8{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.part-11{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.part-12{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.part-11 img{
+    width: 80%;
+}
+
+.part-12 table{
+    width: 80%;
+}
+
+.part-13{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.part-14{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.part-15{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.part-16{
+    text-align: center;
+}
+
