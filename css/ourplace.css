@@ -8,8 +8,8 @@
 }
 
 
-.abstract-2{
-    width: 80%;
+.HS{
+    width: 60%;
     height: auto !important;
     margin-left: 100px;
 }
@@ -34,12 +34,8 @@
     justify-content: space-evenly;
 }
 
-.SB-img{
-    width: 80%;
-}
-
-.abstract-3{
-    width: 40%;
+.UIS{
+    width: 20%;
     height: auto !important;
 }
 
@@ -52,9 +48,22 @@
     margin-top: 50px;
 }
 
-.abstract-4{
-    width: 30%;
+.POVS{
+    width: 20%;
     height: auto !important;
+}
+
+.P{
+    width: 40%;
+    height: auto !important;
+}
+
+.left-align{
+    text-align: left;
+}
+
+.HF{
+    margin-top: 0;
 }
 
 /* part */
@@ -90,6 +99,15 @@
 .part-8{
     text-align: center;
     margin-top: 200px;
+}
+
+.part-9{
+    align-items: center;
+}
+
+.part-10{
+    align-items: center;
+    margin-top: 100px;
 }
 
 .part-11{
