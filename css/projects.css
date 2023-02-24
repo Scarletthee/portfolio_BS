@@ -28,13 +28,20 @@ ul{
 li{
     font-size: 16px;
     font-weight: 300;
+    padding: 0em 0;
 }
+
 .font-PD{
     font-family: 'Playfair Display';
 }
 
 .left-align{
     text-align: left;
+}
+
+.illustration{
+    width: 30%;
+    height: 30% !important;
 }
 
 /* background */
@@ -64,10 +71,9 @@ body{
 }
 
 .abstract-1{
-    width: 80%;
+    width: 50%;
     height: auto !important;
-    margin-left: 100px;
-    margin-bottom: 100px;
+    margin-left: 200px;
 }
 
 .break{
@@ -90,6 +96,9 @@ body{
     height: auto !important;
 }
 
+.SB{
+    justify-content: space-between;
+}
 /* footer */
 footer{
     background: none;

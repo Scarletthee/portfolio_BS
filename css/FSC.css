@@ -2,19 +2,18 @@
     text-align: center;
 }
 
-.abstract-2{
-    width: 50%;
-    height: auto !important;
+.center{
+    text-align: center;
 }
 
-.feedback{
-    margin-top: 50px;
-    align-items: center;
-}
 
 /* part */
 .part-3{
     text-align: center;
+}
+
+.part-3 img{
+    width: 30%;
 }
 
 .part-4{
@@ -31,10 +30,6 @@
     margin-top: 200px;
 }
 
-.part-5 h5{
-    text-align: center;
-}
-
 .part-6{
     text-align: center;
 }
@@ -47,11 +42,6 @@
 .part-8{
     text-align: center;
     margin-top: 200px;
-}
-
-.part-9 img{
-    width: 50%;
-    height: auto;
 }
 
 .part-9{
