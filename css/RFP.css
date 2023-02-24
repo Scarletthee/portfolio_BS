@@ -14,10 +14,6 @@
     list-style: none;
 }
 
-.PP{
-    width: 50%;
-}
-
 .abstract-3{
     width: 40%;
     height: auto !important;
@@ -40,6 +36,16 @@
 .HTML{
     width: 50%;
 }
+
+.SB{
+    justify-content: space-between;
+}
+
+.illustration{
+    width: 20%;
+    height: 20% !important;
+}
+
 /* part */
 .part-1{
     margin-top: 200px;
@@ -72,7 +78,7 @@
 }
 
 .part-7 img{
-    width: 50%;
+    width: 40%;
 }
 
 .part-8{
@@ -88,10 +94,6 @@
 .part-12{
     text-align: center;
     margin-top: 200px;
-}
-
-.part-11 img{
-    width: 80%;
 }
 
 .part-12 table{
